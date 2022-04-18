@@ -1,0 +1,40 @@
+
+.item-container {
+    background-color: aqua;
+    padding: 2em;
+    /* width: 100%; */
+    /* justify-content: space-between; */
+}
+
+.item-container div {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
