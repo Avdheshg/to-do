@@ -2,6 +2,7 @@ import "./App.css";
 import ListItem from "./components/ListItem";
 import ImageGenerator from "./components/ImageGenerator";
 import ColoredDivs from "./components/ColoredDivs";
+import LIHeader from "./components/LIHeader";
 
 function App() {
   const listData = [
@@ -55,8 +56,50 @@ function App() {
     },
   ];
 
+  const LIHeaderData = [
+    {
+      text: "IN",
+      color: "white",
+      padding: "1em",
+      backgroundColor: "#0072b1"
+    },
+    {
+      text: "Jobs",
+      color: "#343b36",
+      padding: "1em",
+      backgroundColor: "#5f396f"
+    },
+    {
+      text: "Message",
+      color: "#343b36",
+      backgroundColor: "#1f996f",
+      padding: "1em"
+    },
+    {
+      text: "Notification",
+      color: "#343b36",
+      backgroundColor: "#5f966f",
+      padding: "1em"
+    },
+    {
+      text: "Account",
+      color: "#343b36",
+      backgroundColor: "#7f996f",
+      padding: "1em",
+      imageURL: "https://picsum.photos/200"
+    },
+    
+  ]
+
   return (
     <div>
+
+
+      <div>
+        <LIHeader data={LIHeaderData} />
+        
+      </div>
+      
       <div>
         <ColoredDivs
           name={divColors[0].name}

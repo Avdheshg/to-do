@@ -1,7 +1,12 @@
 function ColoredDivs(props) {
   return (
-    <div style={{ backgroundColor: props.value, padding: props.padding, color: "white" }}>
-
+    <div
+      style={{
+        backgroundColor: props.value,
+        padding: props.padding,
+        color: "white",
+      }}
+    >
       <h1>{props.name}</h1>
     </div>
   );
