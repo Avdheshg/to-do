@@ -14,7 +14,7 @@ const Stack = createNativeStackNavigator();
 //     CategoryMeals: {
 //         screen: CategoryMealsScreen
 //     },
-//     MealDetail: MealDetailScreen
+//     MealDetail: MealDetailScreen    
 // })
 
 const MealsNavigator = (props) => {
